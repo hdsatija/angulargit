@@ -1,0 +1,37 @@
+<div class="container home">
+    <div class="row">
+       <div class="col-md-12 heading" >
+         <div class="text3"  >ACCOMPLISHMENTS</div>
+         <br>
+         <div class="text4">My Projects</div>
+         <br>
+       </div>
+    </div>
+  
+        <div class="row projectrow" 
+        *ngFor="let project of Projects">
+          <div class="col-md-offset-1 col-md-3">
+          
+            <span class="Projectname" >{{project.name}}</span>
+            <br>
+            <div>
+              <a href="{{project.wlink}}" target="_blank">{{project.wlink}}</a>
+            </div>
+            <hr>
+            <div>
+              <span class="text1"> {{project.description}}
+                </span>
+            </div>
+          </div>
+            <div class="col-md-7">
+              <a href="{{project.wlink}}" target="_blank">
+                <img class="img-responsive pic" src="{{project.imagepath}}">
+              </a>
+            </div>
+           
+            
+        </div>
+    
+ 
+     
+  </div>

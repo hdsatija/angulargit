@@ -1,0 +1,23 @@
+ .home{
+     margin:2%;
+     box-shadow: 1px 3px 20px grey;
+     margin-left: 5%;
+
+ }
+ .home2{
+    padding-top: 10%;
+    padding-left: 3%;
+ }
+ .pic{
+    float: right;
+
+ }
+ .text1{
+    font-size: 25px;
+    font-weight: 500;
+ }
+ .text2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #0091d5;
+ }

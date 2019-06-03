@@ -1,0 +1,19 @@
+<div class="container home">
+    <div class="row">
+       <div class="col-md-12 heading" >
+         <div class="text3"  >SKILLS</div>
+         <br>
+         <div class="text4">My Skills</div>
+         <br>
+       </div>
+    </div>
+    <div class="col-md-6" 
+    *ngFor="let skill of skills"
+    >
+      <div class="text3">{{skill.name}}</div>
+      <ngb-progressbar [showValue]="true" type="info" value={{skill.value}}>
+
+      </ngb-progressbar>
+
+    </div>
+  </div>
